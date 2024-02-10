@@ -1,0 +1,11 @@
+#
+# Created by WebMap 1.0.1
+# Friday, July 7, 1995 at 4:17 pm
+# Format: NCSA
+#
+
+
+default buggers.html
+rect fear.html 63,5 285,319
+rect newgate.html 380,241 413,271
+rect bugging2.html 447,292 483,320

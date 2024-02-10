@@ -1,0 +1,11 @@
+#
+# Created by WebMap 1.0.1
+# Friday, July 7, 1995 at 12:43 pm
+# Format: NCSA
+#
+
+
+default author.html
+rect audience.html 138,37 176,81
+rect authors.html 183,37 270,81
+rect authority.html 312,38 348,81

@@ -1,0 +1,10 @@
+#
+# Created by WebMap 1.0.1
+# Friday, July 7, 1995 at 3:58 pm
+# Format: NCSA
+#
+
+
+default biga.html
+rect langmap.html 4,4 247,336
+rect network.html 251,5 509,336

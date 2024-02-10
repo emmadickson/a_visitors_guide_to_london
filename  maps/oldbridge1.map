@@ -1,0 +1,10 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 18, 1995 at 9:08 am
+# Format: NCSA
+#
+
+
+default oldbridge1.html
+rect oldtramtunnel.html 368,278 426,332
+rect mountpleasant.html 433,227 494,291

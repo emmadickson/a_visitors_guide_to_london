@@ -1,0 +1,10 @@
+#
+# Created by WebMap 1.0.1
+# Friday, July 7, 1995 at 4:21 pm
+# Format: NCSA
+#
+
+
+default circle1.html
+rect cardinalcap.html 16,26 240,267
+rect fish1.html 245,27 479,267

@@ -1,0 +1,10 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 11, 1995 at 3:43 pm
+# Format: NCSA
+#
+
+
+default mi6hq.html
+rect binarybite.html 4,6 403,334
+rect hayward.html 411,235 451,276

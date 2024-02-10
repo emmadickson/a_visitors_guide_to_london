@@ -1,0 +1,11 @@
+#
+# Created by WebMap 1.0.1
+# Thursday, July 20, 1995 at 12:11 pm
+# Format: NCSA
+#
+
+
+default yorkroadtube.html
+rect change.html 60,64 479,238
+rect circusspace.html 404,242 454,278
+rect kingscross.html 405,289 453,325

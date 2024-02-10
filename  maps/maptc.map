@@ -1,0 +1,40 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 11, 1995 at 3:03 pm
+# Format: NCSA
+#
+
+
+default maptc.html
+rect birth.html 176,14 226,43
+rect nuclearbunker.html 131,22 176,60
+rect spring.html 98,3 148,22
+rect muswellhill.html 35,33 105,54
+rect wittingtoncave.html 21,52 108,80
+rect archwayviaduct.html 46,80 108,102
+rect highgatecemetry.html 13,101 88,133
+rect camdenlock.html 88,133 144,173
+rect yorkroadtube.html 145,126 196,162
+rect circusspace.html 161,90 215,127
+rect tunnel6.html 250,134 302,171
+rect citybasin.html 432,130 500,172
+rect following.html 26,209 87,243
+rect mi5hq.html 87,193 144,243
+rect bbc.html 19,272 73,316
+rect stabbing.html 96,284 157,322
+rect october.html 142,243 190,264
+rect juddstreetbomb.html 144,225 189,244
+rect kingscross.html 144,193 198,226
+rect cutting.html 194,226 231,239
+rect oldbridge1.html 231,239 280,265
+rect tunnel2.html 210,196 247,213
+rect mountpleasant.html 247,200 318,230
+rect artec.html 277,181 329,201
+rect tunnel5.html 289,257 341,280
+rect farringdon.html 238,281 298,305
+rect oldtramtunnel.html 174,264 233,316
+rect maptl.html 381,269 411,293
+rect mapcc.html 415,293 447,321
+rect mapcr.html 448,295 483,320
+rect maptr.html 449,269 482,294
+rect mapcl.html 380,295 413,320

@@ -1,0 +1,11 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 18, 1995 at 9:13 am
+# Format: NCSA
+#
+
+
+default oldwall3.html
+rect bonestructure.html 1,109 375,338
+rect alphgate.html 379,265 417,301
+rect moorgate.html 444,266 481,299

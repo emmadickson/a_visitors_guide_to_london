@@ -1,0 +1,12 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 18, 1995 at 9:21 am
+# Format: NCSA
+#
+
+
+default progress2.html
+rect through.html 166,62 204,105
+rect chisenhale.html 296,64 336,102
+rect confusion.html 339,64 409,102
+rect mi5hq.html 421,63 458,102

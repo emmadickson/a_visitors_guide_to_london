@@ -1,0 +1,10 @@
+#
+# Created by WebMap 1.0.1
+# Friday, July 7, 1995 at 4:14 pm
+# Format: NCSA
+#
+
+
+default bone3.html
+rect oldwall1.html 4,3 243,337
+rect text2.html 247,3 506,338

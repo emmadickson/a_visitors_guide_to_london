@@ -1,0 +1,11 @@
+#
+# Created by WebMap 1.0.1
+# Thursday, July 20, 1995 at 11:58 am
+# Format: NCSA
+#
+
+
+default stmarysalley.html
+rect brokenbones.html 414,122 482,230
+rect stdunstans.html 445,268 484,299
+rect oldbridge2.html 378,268 412,299

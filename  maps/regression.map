@@ -1,0 +1,10 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 18, 1995 at 12:18 pm
+# Format: NCSA
+#
+
+
+default regression.html
+rect denied.html 226,274 264,314
+rect enforced.html 464,277 502,313

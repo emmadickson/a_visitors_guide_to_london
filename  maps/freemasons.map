@@ -1,0 +1,11 @@
+#
+# Created by WebMap 1.0.1
+# Friday, July 7, 1995 at 4:44 pm
+# Format: NCSA
+#
+
+
+default freemasons.html
+rect acceptance.html 238,68 389,275
+rect escalator.html 411,241 450,273
+rect coventgarden.html 412,290 450,321

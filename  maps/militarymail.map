@@ -1,0 +1,12 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 11, 1995 at 3:43 pm
+# Format: NCSA
+#
+
+
+default militarymail.html
+rect afraid.html 291,182 337,234
+rect enforced.html 404,189 470,257
+rect hmv.html 378,267 415,298
+rect murder.html 443,267 483,301

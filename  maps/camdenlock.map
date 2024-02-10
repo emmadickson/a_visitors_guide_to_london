@@ -1,0 +1,13 @@
+#
+# Created by WebMap 1.0.1
+# Friday, July 7, 1995 at 4:19 pm
+# Format: NCSA
+#
+
+
+default camdenlock.html
+rect highgatecemetry.html 381,242 413,269
+rect zoo.html 379,273 412,295
+rect archwayviaduct.html 416,242 445,270
+rect mi5hq.html 416,293 447,318
+rect tunnel6.html 448,270 481,296

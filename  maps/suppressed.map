@@ -1,0 +1,12 @@
+#
+# Created by WebMap 1.0.1
+# Thursday, July 20, 1995 at 12:00 pm
+# Format: NCSA
+#
+
+
+default suppressed.html
+rect creativity.html 81,287 118,326
+rect enforced.html 186,291 291,330
+rect rigid.html 334,289 392,325
+rect destruction.html 396,289 432,325

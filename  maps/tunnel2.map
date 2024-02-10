@@ -1,0 +1,12 @@
+#
+# Created by WebMap 1.0.1
+# Thursday, July 20, 1995 at 12:04 pm
+# Format: NCSA
+#
+
+
+default tunnel2.html
+rect structure1.html 9,96 206,296
+rect structure1.html 219,73 408,248
+rect cutting.html 365,258 423,313
+rect mountpleasant.html 428,257 490,312

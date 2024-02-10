@@ -1,0 +1,11 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 18, 1995 at 9:09 am
+# Format: NCSA
+#
+
+
+default oldcanal.html
+rect bone4.html 57,31 372,328
+rect zoo.html 375,239 421,283
+rect regentspark.html 442,288 488,324

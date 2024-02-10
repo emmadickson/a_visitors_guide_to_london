@@ -1,0 +1,44 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 11, 1995 at 3:02 pm
+# Format: NCSA
+#
+
+
+default mapcr.html
+rect oldwall4.html 29,45 76,76
+rect alphgate.html 77,67 110,99
+rect oldwall3.html 110,35 155,80
+rect moorgate.html 155,68 182,98
+rect bishopsgate.html 182,52 243,84
+rect liverpool.html 188,30 298,52
+rect bagelshop.html 351,12 417,55
+rect natwestbomb.html 152,126 209,157
+rect balticbomb.html 223,143 270,178
+rect aldgate.html 264,105 312,142
+rect freedompress.html 315,102 350,142
+rect whitechapel.html 353,109 384,155
+rect helicopter.html 387,110 435,136
+rect chisenhale.html 449,107 510,143
+rect buggers.html 39,162 104,188
+rect bugging2.html 84,188 122,206
+rect changealley.html 125,195 180,253
+rect mithrastemple.html 63,221 123,249
+rect garlickehill.html 47,248 119,274
+rect lloydsbuilding.html 185,188 259,244
+rect oldwall2.html 283,191 360,225
+rect oldwall1.html 284,229 357,260
+rect queenhithe.html 44,287 108,340
+rect dock3.html 109,288 149,313
+rect steps2.html 133,315 172,339
+rect metalbox.html 153,282 186,305
+rect steps3.html 188,307 235,339
+rect oldbridge2.html 196,277 234,306
+rect stmarysalley.html 235,307 284,339
+rect stdunstans.html 242,279 284,306
+rect postgate.html 284,281 331,338
+rect maptc.html 380,243 414,269
+rect maptr.html 415,244 450,270
+rect mapcc.html 379,271 413,294
+rect mapbc.html 379,294 415,320
+rect mapbr.html 415,295 449,320

@@ -1,0 +1,11 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 18, 1995 at 9:04 am
+# Format: NCSA
+#
+
+
+default natwestbomb.html
+rect past.html 279,214 316,255
+rect bishopsgate.html 414,241 449,272
+rect lloydsbuilding.html 414,291 449,320

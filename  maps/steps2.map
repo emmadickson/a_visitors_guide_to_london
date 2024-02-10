@@ -1,0 +1,11 @@
+#
+# Created by WebMap 1.0.1
+# Thursday, July 20, 1995 at 11:58 am
+# Format: NCSA
+#
+
+
+default steps2.html
+rect law.html 49,76 471,253
+rect dock3.html 378,269 414,299
+rect metalbox.html 447,269 482,301

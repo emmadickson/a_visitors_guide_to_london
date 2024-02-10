@@ -1,0 +1,12 @@
+#
+# Created by WebMap 1.0.1
+# Friday, July 7, 1995 at 4:27 pm
+# Format: NCSA
+#
+
+
+default creativity.html
+rect freedompress.html 100,152 136,194
+rect authors.html 143,157 187,191
+rect life.html 325,155 369,195
+rect suppressed.html 373,154 411,197

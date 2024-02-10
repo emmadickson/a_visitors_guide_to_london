@@ -1,0 +1,11 @@
+#
+# Created by WebMap 1.0.1
+# Friday, July 7, 1995 at 4:38 pm
+# Format: NCSA
+#
+
+
+default essexsteps.html
+rect threestrokes.html 59,144 120,243
+rect magpiealley.html 406,237 453,275
+rect tunnel7.html 408,290 455,325

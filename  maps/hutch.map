@@ -1,0 +1,11 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 11, 1995 at 2:28 pm
+# Format: NCSA
+#
+
+
+default hutch.html
+rect fear.html 130,70 421,275
+rect dock1.html 442,240 488,280
+rect newmi6.html 374,290 422,325

@@ -1,0 +1,11 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 11, 1995 at 2:32 pm
+# Format: NCSA
+#
+
+
+default juddstreetbomb.html
+rect anger.html 273,17 316,78
+rect kingscross.html 406,232 460,279
+rect october.html 406,284 460,329

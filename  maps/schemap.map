@@ -1,0 +1,17 @@
+#
+# Created by WebMap 1.0.1
+# Thursday, July 20, 1995 at 11:53 am
+# Format: NCSA
+#
+
+
+default schemap.html
+rect maptl.html 3,3 178,112
+rect mapcl.html 4,112 178,229
+rect mapbl.html 4,229 177,342
+rect mapbc.html 177,228 325,342
+rect mapcc.html 178,112 327,228
+rect maptc.html 178,3 327,112
+rect maptr.html 327,3 488,112
+rect mapcr.html 327,112 488,230
+rect mapbr.html 325,229 488,342

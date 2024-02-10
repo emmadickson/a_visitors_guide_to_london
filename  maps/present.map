@@ -1,0 +1,12 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 18, 1995 at 9:20 am
+# Format: NCSA
+#
+
+
+default present.html
+rect rigid.html 116,194 150,239
+rect puncture.html 159,205 225,265
+rect violent.html 231,227 311,283
+rect oldwall2.html 323,252 358,295

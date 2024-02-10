@@ -1,0 +1,11 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 18, 1995 at 12:19 pm
+# Format: NCSA
+#
+
+
+default resolve.html
+rect violent.html 269,287 308,331
+rect truth.html 345,288 448,329
+rect uncertainty.html 460,287 500,327

@@ -1,0 +1,12 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 18, 1995 at 9:14 am
+# Format: NCSA
+#
+
+
+default oldwall5.html
+rect bonestructure.html 285,75 508,265
+rect oldwall4.html 446,269 482,296
+rect postmansgarden.html 413,291 447,320
+rect bonestructure.html 286,269 408,338

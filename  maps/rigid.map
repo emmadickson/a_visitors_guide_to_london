@@ -1,0 +1,12 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 18, 1995 at 12:21 pm
+# Format: NCSA
+#
+
+
+default rigid.html
+rect flow.html 108,139 144,181
+rect suppressed.html 152,140 204,182
+rect law.html 210,140 302,182
+rect present.html 317,139 347,182

@@ -1,0 +1,13 @@
+#
+# Created by WebMap 1.0.1
+# Friday, July 7, 1995 at 4:45 pm
+# Format: NCSA
+#
+
+
+default front.html
+rect blackfriarsbridge.html 284,293 335,339
+rect righthand.html 340,294 382,340
+rect subvert.html 385,294 421,339
+rect schemap.html 425,295 468,339
+rect info.html 380,79 429,231

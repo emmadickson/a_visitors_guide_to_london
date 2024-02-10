@@ -1,0 +1,12 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 18, 1995 at 9:04 am
+# Format: NCSA
+#
+
+
+default nealsyard.html
+rect relief.html 153,40 213,98
+rect bone1.html 200,230 256,297
+rect myhome.html 373,232 421,276
+rect coventgarden.html 437,285 484,327

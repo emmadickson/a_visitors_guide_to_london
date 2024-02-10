@@ -1,0 +1,10 @@
+#
+# Created by WebMap 1.0.1
+# Thursday, July 20, 1995 at 12:02 pm
+# Format: NCSA
+#
+
+
+default thought.html
+rect binary.html 50,127 89,167
+rect jobcentre.html 254,130 296,165

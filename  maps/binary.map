@@ -1,0 +1,13 @@
+#
+# Created by WebMap 1.0.1
+# Friday, July 7, 1995 at 3:59 pm
+# Format: NCSA
+#
+
+
+default binary.html
+rect through.html 220,270 257,303
+rect righteyes.html 220,236 257,264
+rect seduce.html 223,182 258,231
+rect righteyes.html 221,84 254,105
+rect thought.html 220,45 252,78

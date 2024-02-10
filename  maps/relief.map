@@ -1,0 +1,10 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 18, 1995 at 12:18 pm
+# Format: NCSA
+#
+
+
+default relief.html
+rect protest.html 14,45 50,87
+rect nealsyard.html 144,46 184,86

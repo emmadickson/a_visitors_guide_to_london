@@ -1,0 +1,11 @@
+#
+# Created by WebMap 1.0.1
+# Thursday, July 20, 1995 at 11:53 am
+# Format: NCSA
+#
+
+
+default scar.html
+rect puncture.html 292,47 331,93
+rect langstruct.html 341,48 423,94
+rect new.html 456,47 492,94

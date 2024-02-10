@@ -1,0 +1,12 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 11, 1995 at 3:41 pm
+# Format: NCSA
+#
+
+
+default metalbox.html
+rect urhere.html 172,83 329,279
+rect binarybite.html 435,174 478,229
+rect steps3.html 446,267 484,299
+rect steps2.html 377,266 416,300

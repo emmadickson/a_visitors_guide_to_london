@@ -1,0 +1,10 @@
+#
+# Created by WebMap 1.0.1
+# Friday, July 7, 1995 at 4:53 pm
+# Format: NCSA
+#
+
+
+default high.html
+rect art.html 150,92 189,132
+rect popular.html 293,93 330,133

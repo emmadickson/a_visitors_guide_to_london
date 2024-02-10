@@ -1,0 +1,10 @@
+#
+# Created by WebMap 1.0.1
+# Friday, July 7, 1995 at 4:16 pm
+# Format: NCSA
+#
+
+
+default brokenbone.html
+rect text1.html 4,4 253,337
+rect changealley.html 256,5 505,338

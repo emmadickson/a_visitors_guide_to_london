@@ -1,0 +1,12 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 18, 1995 at 9:13 am
+# Format: NCSA
+#
+
+
+default oldwall2.html
+rect aldgate.html 413,240 449,277
+rect oldwall1.html 414,291 450,322
+rect bonestructure.html 4,3 504,237
+rect present.html 6,239 405,339
