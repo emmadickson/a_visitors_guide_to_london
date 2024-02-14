@@ -1,0 +1,12 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 18, 1995 at 9:05 am
+# Format: NCSA
+#
+
+
+default newgate.html
+rect holbornviaduct.html 380,242 412,270
+rect postmansgarden.html 414,242 445,270
+rect ludgate.html 415,294 447,319
+rect buggers.html 449,294 482,320

@@ -1,0 +1,10 @@
+#
+# Created by WebMap 1.0.1
+# Thursday, July 20, 1995 at 12:10 pm
+# Format: NCSA
+#
+
+
+default winchesterpalace.html
+rect secretgarden.html 375,258 419,306
+rect steps.html 441,259 488,306

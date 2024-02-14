@@ -1,0 +1,27 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 11, 1995 at 3:03 pm
+# Format: NCSA
+#
+
+
+default maptl.html
+rect saatchi.html 25,69 113,127
+rect tunnel1.html 45,135 109,190
+rect zoo.html 115,136 169,170
+rect oldcanal.html 115,172 167,202
+rect lisson.html 45,195 107,248
+rect mi5garage.html 49,250 107,291
+rect regentspark.html 182,200 289,247
+rect riba.html 224,248 296,287
+rect following.html 300,214 355,252
+rect mi5hq.html 357,208 418,249
+rect highgatecemetry.html 277,110 347,145
+rect archwayviaduct.html 307,88 372,111
+rect wittingtoncave.html 284,60 365,86
+rect muswellhill.html 298,27 363,59
+rect spring.html 362,6 420,49
+rect camdenlock.html 353,132 423,191
+rect maptc.html 446,266 483,294
+rect mapcc.html 447,294 482,320
+rect mapcl.html 415,293 447,321

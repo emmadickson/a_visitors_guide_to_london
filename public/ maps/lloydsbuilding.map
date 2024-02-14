@@ -1,0 +1,13 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 11, 1995 at 2:36 pm
+# Format: NCSA
+#
+
+
+default lloydsbuilding.html
+rect advertised.html 5,7 372,333
+rect balticbomb.html 447,243 483,272
+rect natwestbomb.html 412,242 445,272
+rect changealley.html 380,272 411,295
+rect steps3.html 415,293 447,319

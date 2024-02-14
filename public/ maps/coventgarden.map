@@ -1,0 +1,13 @@
+#
+# Created by WebMap 1.0.1
+# Friday, July 7, 1995 at 4:26 pm
+# Format: NCSA
+#
+
+
+default coventgarden.html
+rect nealsyard.html 380,242 411,269
+rect freemasons.html 414,242 446,270
+rect accident.html 449,272 480,294
+rect magpiealley.html 449,295 480,317
+rect bank.html 416,294 445,316

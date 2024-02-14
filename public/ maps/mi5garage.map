@@ -1,0 +1,11 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 11, 1995 at 3:42 pm
+# Format: NCSA
+#
+
+
+default mi5garage.html
+rect threestrokes.html 199,147 304,246
+rect lisson.html 407,235 454,280
+rect marblearch.html 406,281 453,325

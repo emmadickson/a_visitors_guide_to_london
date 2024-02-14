@@ -1,0 +1,12 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 18, 1995 at 12:17 pm
+# Format: NCSA
+#
+
+
+default queenhithe.html
+rect info.html 102,171 375,297
+rect oldrailbridge.html 381,272 412,294
+rect printersbin.html 415,294 447,318
+rect dock3.html 449,270 480,295

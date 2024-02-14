@@ -1,0 +1,13 @@
+#
+# Created by WebMap 1.0.1
+# Thursday, July 20, 1995 at 11:58 am
+# Format: NCSA
+#
+
+
+default steps3.html
+rect urhere.html 414,132 478,215
+rect lloydsbuilding.html 414,242 446,272
+rect steps.html 414,291 448,319
+rect metalbox.html 380,269 412,296
+rect oldbridge2.html 447,270 480,295

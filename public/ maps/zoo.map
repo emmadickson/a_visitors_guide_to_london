@@ -1,0 +1,12 @@
+#
+# Created by WebMap 1.0.1
+# Thursday, July 20, 1995 at 12:12 pm
+# Format: NCSA
+#
+
+
+default zoo.html
+rect saatchi.html 381,244 411,268
+rect tunnel1.html 382,272 410,294
+rect camdenlock.html 447,270 480,293
+rect oldcanal.html 447,295 479,319

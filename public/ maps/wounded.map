@@ -1,0 +1,11 @@
+#
+# Created by WebMap 1.0.1
+# Thursday, July 20, 1995 at 12:11 pm
+# Format: NCSA
+#
+
+
+default wounded.html
+rect murder.html 51,178 89,222
+rect masochism.html 100,178 261,221
+rect hurt.html 270,178 309,221

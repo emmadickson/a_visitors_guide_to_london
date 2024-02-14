@@ -1,0 +1,11 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 18, 1995 at 9:15 am
+# Format: NCSA
+#
+
+
+default past2.html
+rect collective.html 14,31 50,73
+rect past.html 55,30 149,73
+rect flow.html 156,31 191,74

@@ -1,0 +1,15 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 18, 1995 at 9:09 am
+# Format: NCSA
+#
+
+
+default oldrailbridge.html
+rect binarybite.html 167,97 256,189
+rect magpiealley.html 380,242 412,268
+rect tunnel8.html 415,243 446,270
+rect wardrobecourt.html 448,243 484,272
+rect queenhithe.html 448,272 480,297
+rect blackfriarsbridge.html 415,294 447,319
+rect tunnel7.html 378,295 415,319

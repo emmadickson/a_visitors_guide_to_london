@@ -1,0 +1,56 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 11, 1995 at 2:59 pm
+# Format: NCSA
+#
+
+
+default mapcc.html
+rect stabbing.html 26,40 95,80
+rect october.html 78,3 133,22
+rect oldtramtunnel.html 109,23 170,65
+rect farringdon.html 177,37 240,60
+rect tunnel5.html 225,15 279,36
+rect tunnel4.html 224,61 275,83
+rect oldwall4.html 281,31 327,65
+rect alphgate.html 327,43 358,72
+rect oldwall3.html 357,14 402,49
+rect moorgate.html 402,49 432,75
+rect bishopsgate.html 433,30 487,74
+rect office.html 65,86 112,117
+rect myhome.html 3,81 63,139
+rect nealsyard.html 63,125 113,161
+rect freemasons.html 114,138 206,163
+rect escalator.html 115,85 174,121
+rect jobcentre.html 176,104 214,137
+rect holbornviaduct.html 215,84 259,134
+rect oldwall5.html 275,76 333,97
+rect postmansgarden.html 273,101 347,129
+rect newgate.html 240,134 290,160
+rect buggers.html 290,142 348,162
+rect bugging2.html 326,163 373,181
+rect ludgate.html 265,168 311,210
+rect pit.html 243,179 264,209
+rect accident.html 182,168 235,196
+rect coventgarden.html 73,168 145,218
+rect dillions.html 34,240 92,276
+rect tesco.html 33,280 93,311
+rect bank.html 93,242 141,276
+rect essexsteps.html 158,265 212,303
+rect magpiealley.html 173,220 229,260
+rect tunnel8.html 230,225 271,245
+rect wardrobecourt.html 271,238 335,269
+rect mithrastemple.html 315,192 376,225
+rect garlickehill.html 295,224 369,238
+rect changealley.html 373,164 480,224
+rect natwestbomb.html 401,99 482,142
+rect oldrailbridge.html 216,266 273,338
+rect queenhithe.html 299,269 364,315
+rect maptl.html 379,241 413,270
+rect maptc.html 415,241 446,269
+rect maptr.html 447,241 481,270
+rect mapcr.html 448,270 481,294
+rect mapbr.html 448,294 481,319
+rect mapbc.html 415,294 446,318
+rect mapbl.html 380,294 414,318
+rect mapcl.html 380,270 412,293

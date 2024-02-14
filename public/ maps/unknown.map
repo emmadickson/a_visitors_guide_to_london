@@ -1,0 +1,11 @@
+#
+# Created by WebMap 1.0.1
+# Thursday, July 20, 1995 at 12:07 pm
+# Format: NCSA
+#
+
+
+default unknown.html
+rect wittingtoncave.html 131,59 173,105
+rect uncertainty.html 184,59 342,107
+rect inward.html 354,61 394,105

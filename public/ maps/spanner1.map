@@ -1,0 +1,10 @@
+#
+# Created by WebMap 1.0.1
+# Thursday, July 20, 1995 at 11:56 am
+# Format: NCSA
+#
+
+
+default spanner1.html
+rect bone1.html 4,5 256,336
+rect fish2.html 259,6 507,337

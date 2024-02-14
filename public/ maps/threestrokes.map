@@ -1,0 +1,14 @@
+#
+# Created by WebMap 1.0.1
+# Thursday, July 20, 1995 at 12:02 pm
+# Format: NCSA
+#
+
+
+default threestrokes.html
+rect essexsteps.html 193,21 238,160
+rect mi5garage.html 255,22 311,159
+rect oldtramtunnel.html 322,59 371,159
+rect essexsteps.html 166,160 221,275
+rect mi5garage.html 225,159 283,286
+rect oldtramtunnel.html 285,160 349,318

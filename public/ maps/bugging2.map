@@ -1,0 +1,11 @@
+#
+# Created by WebMap 1.0.1
+# Friday, July 7, 1995 at 4:18 pm
+# Format: NCSA
+#
+
+
+default bugging2.html
+rect binarybite.html 65,53 352,252
+rect buggers.html 376,236 417,276
+rect changealley.html 443,288 488,327

@@ -1,0 +1,13 @@
+#
+# Created by WebMap 1.0.1
+# Friday, July 7, 1995 at 12:44 pm
+# Format: NCSA
+#
+
+
+default authors.html
+rect confusion.html 78,171 113,210
+rect creativity.html 119,172 165,211
+rect author.html 167,172 257,212
+rect anger.html 259,172 312,211
+rect dillions.html 339,172 376,210

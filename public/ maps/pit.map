@@ -1,0 +1,11 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 18, 1995 at 9:17 am
+# Format: NCSA
+#
+
+
+default pit.html
+rect bone2.html 71,156 270,341
+rect accident.html 376,261 416,305
+rect ludgate.html 441,262 483,304

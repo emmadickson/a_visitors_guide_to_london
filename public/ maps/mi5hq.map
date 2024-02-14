@@ -1,0 +1,14 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 11, 1995 at 3:43 pm
+# Format: NCSA
+#
+
+
+default mi5hq.html
+rect evolution.html 103,5 258,69
+rect progress2.html 428,62 479,132
+rect camdenlock.html 413,242 446,269
+rect following.html 379,269 411,294
+rect myhome.html 415,294 447,320
+rect kingscross.html 448,268 478,297

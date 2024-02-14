@@ -1,0 +1,10 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 18, 1995 at 12:21 pm
+# Format: NCSA
+#
+
+
+default righthand.html
+rect left-right.html 3,5 256,336
+rect righteyes.html 259,6 506,335

@@ -1,0 +1,11 @@
+#
+# Created by WebMap 1.0.1
+# Friday, July 7, 1995 at 4:55 pm
+# Format: NCSA
+#
+
+
+default hmv.html
+rect popular.html 81,104 305,338
+rect marblearch.html 372,261 416,305
+rect militarymail.html 443,260 487,303

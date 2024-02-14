@@ -1,0 +1,12 @@
+#
+# Created by WebMap 1.0.1
+# Friday, July 7, 1995 at 4:40 pm
+# Format: NCSA
+#
+
+
+default fear.html
+rect buggers.html 90,163 132,200
+rect hutch.html 135,162 158,200
+rect anger.html 160,163 245,201
+rect subvert.html 247,162 278,201

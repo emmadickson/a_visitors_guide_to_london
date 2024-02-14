@@ -1,0 +1,36 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 11, 1995 at 2:58 pm
+# Format: NCSA
+#
+
+
+default mapbl.html
+rect serpentine.html 6,22 66,62
+rect mi5computers.html 66,23 120,44
+rect piccadillycircus.html 97,44 140,81
+rect leicestersquare.html 161,46 207,82
+rect photographers.html 208,44 270,78
+rect dillions.html 271,60 320,79
+rect bank.html 321,61 367,79
+rect magpiealley.html 420,34 480,79
+rect essexsteps.html 389,83 446,116
+rect tesco.html 268,97 324,120
+rect ica.html 97,133 142,177
+rect ventilator.html 152,136 199,165
+rect trafalgarsquare.html 202,129 268,173
+rect charingcross.html 272,128 339,184
+rect romanbath.html 360,130 392,170
+rect tunnel7.html 393,134 454,192
+rect newmi5.html 154,173 219,196
+rect tate.html 166,203 215,224
+rect newmi6.html 186,278 230,319
+rect hutch.html 230,283 270,304
+rect dock1.html 229,265 277,283
+rect tunnel3.html 255,243 303,265
+rect skaters.html 301,217 345,259
+rect hayward.html 345,217 406,259
+rect mi6hq.html 334,268 391,309
+rect mapcl.html 415,243 447,270
+rect mapcc.html 448,243 482,269
+rect mapbc.html 447,270 480,295

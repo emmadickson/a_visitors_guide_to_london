@@ -1,0 +1,12 @@
+#
+# Created by WebMap 1.0.1
+# Friday, July 7, 1995 at 4:55 pm
+# Format: NCSA
+#
+
+
+default holbornviaduct.html
+rect tunnel4.html 413,242 445,270
+rect jobcentre.html 380,270 412,296
+rect tunnel8.html 415,294 447,319
+rect newgate.html 448,294 481,320

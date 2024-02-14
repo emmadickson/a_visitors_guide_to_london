@@ -1,0 +1,10 @@
+#
+# Created by WebMap 1.0.1
+# Friday, July 7, 1995 at 4:31 pm
+# Format: NCSA
+#
+
+
+default deciders.html
+rect violent.html 451,62 491,102
+rect afraid.html 454,250 492,292

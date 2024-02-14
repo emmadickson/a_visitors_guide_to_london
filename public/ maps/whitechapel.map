@@ -1,0 +1,11 @@
+#
+# Created by WebMap 1.0.1
+# Thursday, July 20, 1995 at 12:10 pm
+# Format: NCSA
+#
+
+
+default whitechapel.html
+rect bagelshop.html 414,243 445,269
+rect helicopter.html 449,270 481,297
+rect freedompress.html 379,270 413,296

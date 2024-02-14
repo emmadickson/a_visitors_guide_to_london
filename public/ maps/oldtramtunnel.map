@@ -1,0 +1,13 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 18, 1995 at 9:12 am
+# Format: NCSA
+#
+
+
+default oldtramtunnel.html
+rect threestrokes.html 200,123 307,234
+rect stabbing.html 380,293 413,317
+rect escalator.html 415,293 449,316
+rect october.html 414,243 445,272
+rect oldbridge1.html 447,242 482,271

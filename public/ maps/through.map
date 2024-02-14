@@ -1,0 +1,10 @@
+#
+# Created by WebMap 1.0.1
+# Thursday, July 20, 1995 at 12:03 pm
+# Format: NCSA
+#
+
+
+default through.html
+rect progress2.html 119,285 158,324
+rect binary.html 347,283 386,325

@@ -1,0 +1,11 @@
+#
+# Created by WebMap 1.0.1
+# Thursday, July 20, 1995 at 11:52 am
+# Format: NCSA
+#
+
+
+default romanbath.html
+rect bonestructure.html 160,54 320,288
+rect charingcross.html 375,264 415,307
+rect tunnel7.html 443,265 483,305

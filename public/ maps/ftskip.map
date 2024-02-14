@@ -1,0 +1,10 @@
+#
+# Created by WebMap 1.0.1
+# Friday, July 7, 1995 at 4:45 pm
+# Format: NCSA
+#
+
+
+default ftskip.html
+rect printersbin.html 378,266 417,301
+rect secretgarden.html 444,265 482,302

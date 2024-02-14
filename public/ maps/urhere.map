@@ -1,0 +1,12 @@
+#
+# Created by WebMap 1.0.1
+# Thursday, July 20, 1995 at 12:07 pm
+# Format: NCSA
+#
+
+
+default urhere.html
+rect steps3.html 33,7 366,333
+rect lies.html 382,89 481,117
+rect metalbox.html 382,120 484,147
+rect steps3.html 384,254 489,311

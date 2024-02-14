@@ -1,0 +1,13 @@
+#
+# Created by WebMap 1.0.1
+# Thursday, July 20, 1995 at 12:03 pm
+# Format: NCSA
+#
+
+
+default trafalgarsquare.html
+rect feedback.html 228,130 283,189
+rect photographers.html 411,240 446,271
+rect charingcross.html 448,269 481,295
+rect newmi5.html 415,293 448,319
+rect ventilator.html 381,270 411,298

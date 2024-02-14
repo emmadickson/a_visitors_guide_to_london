@@ -1,0 +1,10 @@
+#
+# Created by WebMap 1.0.1
+# Friday, July 7, 1995 at 4:49 pm
+# Format: NCSA
+#
+
+
+default future.html
+rect law.html 284,271 322,314
+rect conflict.html 458,275 496,314

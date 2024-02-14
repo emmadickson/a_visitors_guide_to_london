@@ -1,0 +1,10 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 11, 1995 at 2:29 pm
+# Format: NCSA
+#
+
+
+default implied.html
+rect newmi6.html 93,144 128,183
+rect progress.html 267,148 304,187

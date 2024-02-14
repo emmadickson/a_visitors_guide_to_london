@@ -1,0 +1,12 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 18, 1995 at 9:02 am
+# Format: NCSA
+#
+
+
+default moorgate.html
+rect clockwise.html 214,84 260,122
+rect enforced.html 220,187 262,223
+rect oldwall3.html 373,260 416,305
+rect bishopsgate.html 441,262 488,308

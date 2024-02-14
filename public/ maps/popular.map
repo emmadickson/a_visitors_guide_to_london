@@ -1,0 +1,12 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 18, 1995 at 9:17 am
+# Format: NCSA
+#
+
+
+default popular.html
+rect high.html 87,128 120,167
+rect hmv.html 127,128 211,166
+rect videoskip.html 265,128 311,167
+rect low.html 319,128 353,166

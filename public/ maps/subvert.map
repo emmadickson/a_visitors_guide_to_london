@@ -1,0 +1,12 @@
+#
+# Created by WebMap 1.0.1
+# Thursday, July 20, 1995 at 12:00 pm
+# Format: NCSA
+#
+
+
+default subvert.html
+rect fear.html 175,293 214,330
+rect misunderstand.html 236,295 312,329
+rect advertised.html 331,295 413,330
+rect evolution.html 423,294 457,330

@@ -1,0 +1,10 @@
+#
+# Created by WebMap 1.0.1
+# Friday, July 7, 1995 at 4:50 pm
+# Format: NCSA
+#
+
+
+default greenwich.html
+rect horizon.html 129,23 374,278
+rect shaft.html 378,269 416,299

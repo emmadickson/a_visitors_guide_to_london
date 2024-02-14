@@ -1,0 +1,10 @@
+#
+# Created by WebMap 1.0.1
+# Friday, July 7, 1995 at 4:54 pm
+# Format: NCSA
+#
+
+
+default highgatecemetry.html
+rect diffusion.html 9,5 431,331
+rect camdenlock.html 436,273 501,331

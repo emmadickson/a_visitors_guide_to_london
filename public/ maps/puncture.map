@@ -1,0 +1,11 @@
+#
+# Created by WebMap 1.0.1
+# Tuesday, July 18, 1995 at 12:17 pm
+# Format: NCSA
+#
+
+
+default puncture.html
+rect pierce.html 243,270 281,314
+rect present.html 291,227 406,311
+rect scar.html 458,205 492,245
