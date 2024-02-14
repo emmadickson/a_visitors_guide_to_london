@@ -6,7 +6,7 @@
 <style>
 
 	.link {
-		stroke: #bbb;
+		stroke: #000;
 		stroke-width: 1px;
 	}
 
@@ -18,7 +18,6 @@
 	.node.fixed {
 		fill: #f00;
 	}
-
 	</style>
 
 	<script src="http://d3js.org/d3.v3.min.js"></script>
@@ -28,25 +27,28 @@
 	
 	<body>
 	
-<select id="select-option">
-	<option value="default">Default</option>
-	<option value="test">Test</option>
-  </select>
+		<select id="select-option">
+			<option value="default">Default</option>
+			<option value="katherine">Katherine</option>
+			<option value="bruno M">Bruno M</option>
+			<option value="paulo W">Paulo W</option>
+		</select>
 	<script>
+	
 		//declare variables
 		var margin = {top: -5, right: -5, bottom: -5, left: -5},
 			width = "1500",
 			height = "2000";
 
 		var zoom = d3.behavior.zoom()
-		    .scaleExtent([0.5, 10])
+		    .scaleExtent([-1, 10])
 		    .on("zoom", zoomed);
 
 		//create force layout
 		var force = d3.layout.force()
 		    .charge(-400)
-		    .linkDistance(200)
-		    .size([960, 500])
+		    .linkDistance(300)
+		    .size([560, 100])
 		    .on("tick", tick);
 
 		var drag = force.drag()
@@ -75,15 +77,31 @@
 				.links(data.links)
 				.start();
 
-			link = link.data(data.links)
+				link = link.data(data.links)
 				.enter().append("line")
-				.attr("class", "link");
+				.attr("class", function(d) { 
+					// Construct class names based on the 'users' property
+					var classNames = "link";
+					d.users.forEach(function(user) {
+						classNames += " " + user;
+					});
+					return classNames;
+				});
+				
 
 			node = node.data(data.nodes)
 				.enter().append("g")
-				.attr("class", "node")
+				.attr("class", function(d) { 
+					// Construct class names based on the 'users' property
+					var classNames = "node";
+					d.users.forEach(function(user) {
+						classNames += " " + user;
+					});
+					return classNames;
+				})
 				.on("dblclick", dblclick)
-				.call(drag);
+				.call(drag)
+				
 
 
 			node.append("image")
@@ -135,13 +153,67 @@
     }
   });
 
-  // Function to create paths between nodes connected to node 1
-  function createPaths() {
-    // Your custom logic to create paths between nodes connected to node 1
-    // For example:
-    // - Find all nodes connected to node 1
-    // - Create paths between them
-  }
+  document.getElementById("select-option").addEventListener("change", function() {
+   // Get the selected value
+   var selectedValue = this.value;
+   console.log(selectedValue)
+   links = document.querySelectorAll('.link')
+   nodes = document.querySelectorAll('.node')
+
+   if (selectedValue === "default"){
+	links.forEach(function(element) {
+		element.style.visibility = 'visible'
+		element.style.strokeWidth = '1px';
+		element.style.color = "black"
+	});
+	nodes.forEach(function(element) {
+		element.style.visibility = 'visible'
+	});
+	
+   }
+   if (selectedValue === "katherine") {
+	links.forEach(function(element) {
+		if (!element.classList.contains('katherine')) {
+			// If not, make the element invisible
+			element.style.visibility = 'hidden';
+		} 
+		});
+		nodes.forEach(function(element) {
+			if (!element.classList.contains('katherine')) {
+			// If not, make the element invisible
+			element.style.visibility = 'hidden'
+		} 
+	});
+	}
+	if (selectedValue === "bruno-m") {
+		links.forEach(function(element) {
+		if (!element.classList.contains('bruno-m')) {
+			// If not, make the element invisible
+			element.style.visibility = 'hidden';
+		} 
+		});
+		nodes.forEach(function(element) {
+			if (!element.classList.contains('bruno-m')) {
+			// If not, make the element invisible
+			element.style.visibility = 'hidden'
+		} 
+	});
+	}
+	if (selectedValue === "paulo-w") {
+		links.forEach(function(element) {
+		if (!element.classList.contains('paulo-w')) {
+			// If not, make the element invisible
+			element.style.visibility = 'hidden';
+		} 
+		});
+		nodes.forEach(function(element) {
+			if (!element.classList.contains('paulo-w')) {
+			// If not, make the element invisible
+			element.style.visibility = 'hidden'
+		} 
+	});
+	}
+  });
 	</script>
 
 	</body>

@@ -53,17 +53,45 @@ for file in os.listdir('./ maps'):
     else:
         continue
 
+# Open and read the JSON file
+f = open('user_paths.json', 'r') 
+data = json.load(f)
+
+
 for key in structure.keys():
-    graph_data['nodes'].append({'name': key+ '.html', 'image': 'annotated_images/' + key+ '.png'})
+    users = []
 
-
+    for user in data['users']:
+        for path in user['path']:
+            #print(f"comparing: {path[0]} to {key}")
+            if (path[0] == key):
+                users.append(user['name'])
+                print(users)
+    graph_data['nodes'].append({'name': key+ '.html', 'image': 'annotated_images/' + key+ '.png', 'users': users})
+ 
+      
     for child in structure[key]['children']:
         target_index = structure[child['name']]['count']
 
 
-        graph_data['links'].append({'source': structure[key]['count'], 'target': target_index})
-    
-print(graph_data)
+        graph_data['links'].append({'id':f"{ structure[key]['count']}-{target_index}", 'source': structure[key]['count'], 'target': target_index, 'users': []})
+
+# Iterate through users and their paths
+def search_by_id(graph_data, target_id):
+    for link in graph_data['links']:
+        if link['id'] == target_id:
+            return link
+    return None 
+
+for user in data['users']:
+    for path in user['path']:
+        id = f"{structure[path[0]]['count']}-{structure[path[1]]['count']}"
+  
+        result = search_by_id(graph_data, id)
+        if result:
+            result['users'].append(user['name'])
+
+        
 with open("graph.json", "w") as file:
        json.dump(graph_data, file)
 
