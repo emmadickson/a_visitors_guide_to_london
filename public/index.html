@@ -30,8 +30,8 @@
 		<select id="select-option">
 			<option value="default">Default</option>
 			<option value="katherine">Katherine</option>
-			<option value="bruno M">Bruno M</option>
-			<option value="paulo W">Paulo W</option>
+			<option value="bruno">Bruno M</option>
+			<option value="paulo">Paulo W</option>
 		</select>
 	<script>
 	
@@ -173,6 +173,14 @@
    }
    if (selectedValue === "katherine") {
 	links.forEach(function(element) {
+		element.style.visibility = 'visible'
+		element.style.strokeWidth = '1px';
+		element.style.color = "black"
+	});
+	nodes.forEach(function(element) {
+		element.style.visibility = 'visible'
+	});
+	links.forEach(function(element) {
 		if (!element.classList.contains('katherine')) {
 			// If not, make the element invisible
 			element.style.visibility = 'hidden';
@@ -185,29 +193,45 @@
 		} 
 	});
 	}
-	if (selectedValue === "bruno-m") {
+	if (selectedValue === "bruno") {
 		links.forEach(function(element) {
-		if (!element.classList.contains('bruno-m')) {
+		element.style.visibility = 'visible'
+		element.style.strokeWidth = '1px';
+		element.style.color = "black"
+	});
+	nodes.forEach(function(element) {
+		element.style.visibility = 'visible'
+	});
+		links.forEach(function(element) {
+		if (!element.classList.contains('bruno')) {
 			// If not, make the element invisible
 			element.style.visibility = 'hidden';
 		} 
 		});
 		nodes.forEach(function(element) {
-			if (!element.classList.contains('bruno-m')) {
+			if (!element.classList.contains('bruno')) {
 			// If not, make the element invisible
 			element.style.visibility = 'hidden'
 		} 
 	});
 	}
-	if (selectedValue === "paulo-w") {
+	if (selectedValue === "paulo") {
 		links.forEach(function(element) {
-		if (!element.classList.contains('paulo-w')) {
+		element.style.visibility = 'visible'
+		element.style.strokeWidth = '1px';
+		element.style.color = "black"
+	});
+	nodes.forEach(function(element) {
+		element.style.visibility = 'visible'
+	});
+		links.forEach(function(element) {
+		if (!element.classList.contains('paulo')) {
 			// If not, make the element invisible
 			element.style.visibility = 'hidden';
 		} 
 		});
 		nodes.forEach(function(element) {
-			if (!element.classList.contains('paulo-w')) {
+			if (!element.classList.contains('paulo')) {
 			// If not, make the element invisible
 			element.style.visibility = 'hidden'
 		} 

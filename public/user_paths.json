@@ -163,7 +163,7 @@
             ]                             
         },
         {
-            "name": "bruno-m",
+            "name": "bruno",
             "path": [
                 ["front", "info"],
                 ["info", "artec"],
@@ -259,7 +259,7 @@
                
         },
         {
-            "name": "paulo-w",
+            "name": "paulo",
             "path": [
                 ["front", "info"],
                 ["info", "artec"],
@@ -376,9 +376,6 @@
                 ["newgate", "buggers"],
                 ["buggers", "newgate"]
             ]
-            
-            
-            
         }
     ]
 }
