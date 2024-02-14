@@ -4,6 +4,18 @@
 <title>Force Editor</title>
 
 <style>
+	text{
+		font-size: 5px;
+	}
+	body{
+		margin: 5px;
+    width: calc(100vw - 10px); /* 10px accounts for both left and right margins */
+    height: calc(100vh - 10px); /* 10px accounts for both top and bottom margins */
+	}
+	svg {
+		width: calc(100vw - 10px); /* 10px accounts for both left and right margins */
+    height: calc(100vh - 10px)
+}
 
 	.link {
 		stroke: #000;
@@ -17,6 +29,9 @@
 
 	.node.fixed {
 		fill: #f00;
+	}
+	#select-option{
+		position: absolute;
 	}
 	</style>
 
@@ -34,42 +49,67 @@
 			<option value="paulo">Paulo W</option>
 		</select>
 	<script>
-	
-		//declare variables
-		var margin = {top: -5, right: -5, bottom: -5, left: -5},
-			width = "1500",
-			height = "2000";
+	var margin = {top: -5, right: -5, bottom: -5, left: -5};
 
-		var zoom = d3.behavior.zoom()
-		    .scaleExtent([-1, 10])
-		    .on("zoom", zoomed);
+function updateDimensions() {
+    // Update width and height based on window size
+    width = window.innerWidth - margin.left - margin.right;
+    height = window.innerHeight - margin.top - margin.bottom;
 
-		//create force layout
-		var force = d3.layout.force()
-		    .charge(-400)
-		    .linkDistance(300)
-		    .size([560, 100])
-		    .on("tick", tick);
+    // Select the SVG element and update its width and height attributes
+    d3.select("svg")
+        .attr("width", "100%")
+        .attr("height", "100%");
 
-		var drag = force.drag()
-    		.on("dragstart", dragstart);
+    // Update force layout size
+    force.size([width, height]).resume();
+	  // Update force layout size
+	  svgWidth = width;
+    svgHeight = height;
+	force.size([svgWidth, svgHeight]).resume();
 
-		var svg = d3.select("body").append("svg")
-		    .attr("width", width)
-			.attr("height", height)
-			.append("g")
-			.attr("transform", "translate(" + margin.left + "," + margin.right + ")")
-			.call(zoom)
-			.on("dblclick.zoom", null);
+// Update the size of the <g> element
+var gWidth = svgWidth / 2;
+var gHeight = svgHeight / 2;
+svg.select("g")
+	.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+	.attr("width", gWidth)
+	.attr("height", gHeight);
+}
 
-		var rect = svg.append("rect")
-			.attr("width", width)
-			.attr("height", height)
-			.style("fill", "none")
-			.style("pointer-events", "all");
+// Set up initial dimensions based on window size
+var width = window.innerWidth - margin.left - margin.right;
+var height = window.innerHeight - margin.top - margin.bottom;
 
-		var link = svg.selectAll(".link"),
-   			node = svg.selectAll(".node");
+var zoom = d3.behavior.zoom()
+    .scaleExtent([1, 10])
+    .on("zoom", zoomed);
+
+var force = d3.layout.force()
+    .charge(-100)
+    .linkDistance(25)
+    .size([width, height])
+    .on("tick", tick);
+
+var drag = force.drag()
+    .on("dragstart", dragstart);
+
+var svg = d3.select("body").append("svg")
+    .attr("width", "100%")
+    .attr("height", "100%")
+    .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+    .call(zoom)
+    .on("dblclick.zoom", null);
+
+var rect = svg.append("rect")
+    .attr("width", "100%")
+    .attr("height", "100%")
+    .style("fill", "none")
+    .style("pointer-events", "all");
+
+var link = svg.selectAll(".link"),
+    node = svg.selectAll(".node");
 
 		d3.json("graph.json", function(error, data) {
 			force
@@ -106,12 +146,12 @@
 
 			node.append("image")
     			.attr("xlink:href", function(d) { return d.image; })
-				.attr("width", 100)
+				.attr("width", 25)
 
 				
 			node.append("text")
-				.attr("dx", 10)
-				.attr("dy", ".15em")
+				.attr("dx", 2)
+				.attr("dy", ".05em")
 				.text(function(d) { return d.name }); 
 
 		});
@@ -139,24 +179,21 @@
 			d3.select(this).classed("fixed", d.fixed = true);
 			console.log(d3.select(this))
 		}
+// Add event listener to update dimensions on window resize
+window.addEventListener("resize", updateDimensions);
 
+// Add event listener to the dropdown menu
+d3.select("#select-option").on("change", function() {
+    var selectedOption = d3.select(this).property("value");
+});
 		// Add event listener to the dropdown menu
 		d3.select("#select-option").on("change", function() {
     var selectedOption = d3.select(this).property("value");
-
-    if (selectedOption === "test") {
-      // Your custom action for "test" option
-      // For example, create paths between nodes connected to node 1
-      createPaths();
-    } else {
-      // Default action or no action for other options
-    }
   });
 
   document.getElementById("select-option").addEventListener("change", function() {
    // Get the selected value
    var selectedValue = this.value;
-   console.log(selectedValue)
    links = document.querySelectorAll('.link')
    nodes = document.querySelectorAll('.node')
 
