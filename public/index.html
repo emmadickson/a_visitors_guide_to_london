@@ -44,9 +44,14 @@
 	
 		<select id="select-option">
 			<option value="default">Default</option>
-			<option value="katherine">P1</option>
-			<option value="bruno">P2</option>
-			<option value="paulo">P3</option>
+			<option value="p1">P1</option>
+			<option value="p2">P2</option>
+			<option value="p3">P3</option>
+			<option value="p4">P4</option>
+			<option value="p5">P5</option>
+			<option value="p6">P6</option>
+			<option value="p7">P7</option>
+
 		</select>
 	<script>
 	var margin = {top: -5, right: -5, bottom: -5, left: -5};
@@ -208,7 +213,7 @@ d3.select("#select-option").on("change", function() {
 	});
 	
    }
-   if (selectedValue === "katherine") {
+   if (selectedValue === "p1") {
 	links.forEach(function(element) {
 		element.style.visibility = 'visible'
 		element.style.strokeWidth = '1px';
@@ -218,19 +223,19 @@ d3.select("#select-option").on("change", function() {
 		element.style.visibility = 'visible'
 	});
 	links.forEach(function(element) {
-		if (!element.classList.contains('katherine')) {
+		if (!element.classList.contains('p1')) {
 			// If not, make the element invisible
 			element.style.visibility = 'hidden';
 		} 
 		});
 		nodes.forEach(function(element) {
-			if (!element.classList.contains('katherine')) {
+			if (!element.classList.contains('p1')) {
 			// If not, make the element invisible
 			element.style.visibility = 'hidden'
 		} 
 	});
 	}
-	if (selectedValue === "bruno") {
+	if (selectedValue === "p2") {
 		links.forEach(function(element) {
 		element.style.visibility = 'visible'
 		element.style.strokeWidth = '1px';
@@ -240,39 +245,133 @@ d3.select("#select-option").on("change", function() {
 		element.style.visibility = 'visible'
 	});
 		links.forEach(function(element) {
-		if (!element.classList.contains('bruno')) {
+		if (!element.classList.contains('p2')) {
 			// If not, make the element invisible
 			element.style.visibility = 'hidden';
 		} 
 		});
 		nodes.forEach(function(element) {
-			if (!element.classList.contains('bruno')) {
+			if (!element.classList.contains('p2')) {
 			// If not, make the element invisible
 			element.style.visibility = 'hidden'
 		} 
 	});
 	}
-	if (selectedValue === "paulo") {
+	if (selectedValue === "p3") {
 		links.forEach(function(element) {
-		element.style.visibility = 'visible'
-		element.style.strokeWidth = '1px';
-		element.style.color = "black"
-	});
-	nodes.forEach(function(element) {
-		element.style.visibility = 'visible'
-	});
-		links.forEach(function(element) {
-		if (!element.classList.contains('paulo')) {
-			// If not, make the element invisible
-			element.style.visibility = 'hidden';
-		} 
+			element.style.visibility = 'visible'
+			element.style.strokeWidth = '1px';
+			element.style.color = "black"
 		});
 		nodes.forEach(function(element) {
-			if (!element.classList.contains('paulo')) {
+			element.style.visibility = 'visible'
+		});
+
+		links.forEach(function(element) {
+			if (!element.classList.contains('p3')) {
+				// If not, make the element invisible
+				element.style.visibility = 'hidden';
+			} 
+		});
+		nodes.forEach(function(element) {
+			if (!element.classList.contains('p3')) {
 			// If not, make the element invisible
 			element.style.visibility = 'hidden'
 		} 
-	});
+		});
+	}
+	if (selectedValue === "p4") {
+		links.forEach(function(element) {
+			element.style.visibility = 'visible'
+			element.style.strokeWidth = '1px';
+			element.style.color = "black"
+		});
+		nodes.forEach(function(element) {
+			element.style.visibility = 'visible'
+		});
+
+		links.forEach(function(element) {
+			if (!element.classList.contains('p4')) {
+				// If not, make the element invisible
+				element.style.visibility = 'hidden';
+			} 
+		});
+		nodes.forEach(function(element) {
+			if (!element.classList.contains('p4')) {
+			// If not, make the element invisible
+			element.style.visibility = 'hidden'
+		} 
+		});
+	}
+	if (selectedValue === "p5") {
+		links.forEach(function(element) {
+			element.style.visibility = 'visible'
+			element.style.strokeWidth = '1px';
+			element.style.color = "black"
+		});
+		nodes.forEach(function(element) {
+			element.style.visibility = 'visible'
+		});
+
+		links.forEach(function(element) {
+			if (!element.classList.contains('p5')) {
+				// If not, make the element invisible
+				element.style.visibility = 'hidden';
+			} 
+		});
+		nodes.forEach(function(element) {
+			if (!element.classList.contains('p5')) {
+			// If not, make the element invisible
+			element.style.visibility = 'hidden'
+		} 
+		});
+	}
+	if (selectedValue === "p6") {
+		links.forEach(function(element) {
+			element.style.visibility = 'visible'
+			element.style.strokeWidth = '1px';
+			element.style.color = "black"
+		});
+		nodes.forEach(function(element) {
+			element.style.visibility = 'visible'
+		});
+
+		links.forEach(function(element) {
+			if (!element.classList.contains('p6')) {
+				// If not, make the element invisible
+				element.style.visibility = 'hidden';
+			} 
+		});
+		nodes.forEach(function(element) {
+			if (!element.classList.contains('p6')) {
+			// If not, make the element invisible
+			element.style.visibility = 'hidden'
+		} 
+		});
+	}
+	
+	if (selectedValue === "p7") {
+		links.forEach(function(element) {
+			element.style.visibility = 'visible'
+			element.style.strokeWidth = '1px';
+			element.style.color = "black"
+		});
+		nodes.forEach(function(element) {
+			element.style.visibility = 'visible'
+		});
+
+		links.forEach(function(element) {
+			if (!element.classList.contains('p7')) {
+				// If not, make the element invisible
+				element.style.visibility = 'hidden';
+			} 
+		});
+		nodes.forEach(function(element) {
+			if (!element.classList.contains('p7')) {
+			// If not, make the element invisible
+			element.style.visibility = 'hidden'
+		} 
+		});
 	}
   });
 	</script>

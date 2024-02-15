@@ -64,9 +64,8 @@ for key in structure.keys():
     for user in data['users']:
         for path in user['path']:
             #print(f"comparing: {path[0]} to {key}")
-            if (path[0] == key):
+            if (path[0] == key and user['name'] not in users):
                 users.append(user['name'])
-                print(users)
     graph_data['nodes'].append({'name': key+ '.html', 'image': 'annotated_images/' + key+ '.png', 'users': users})
  
       
