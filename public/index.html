@@ -51,7 +51,7 @@
 			<option value="p5">P5</option>
 			<option value="p6">P6</option>
 			<option value="p7">P7</option>
-
+			<option value="p8">P8</option>
 		</select>
 	<script>
 	var margin = {top: -5, right: -5, bottom: -5, left: -5};
@@ -368,6 +368,30 @@ d3.select("#select-option").on("change", function() {
 		});
 		nodes.forEach(function(element) {
 			if (!element.classList.contains('p7')) {
+			// If not, make the element invisible
+			element.style.visibility = 'hidden'
+		} 
+		});
+	}
+
+	if (selectedValue === "p8") {
+		links.forEach(function(element) {
+			element.style.visibility = 'visible'
+			element.style.strokeWidth = '1px';
+			element.style.color = "black"
+		});
+		nodes.forEach(function(element) {
+			element.style.visibility = 'visible'
+		});
+
+		links.forEach(function(element) {
+			if (!element.classList.contains('p8')) {
+				// If not, make the element invisible
+				element.style.visibility = 'hidden';
+			} 
+		});
+		nodes.forEach(function(element) {
+			if (!element.classList.contains('p8')) {
 			// If not, make the element invisible
 			element.style.visibility = 'hidden'
 		} 
